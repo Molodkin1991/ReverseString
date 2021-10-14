@@ -2,11 +2,10 @@ package com.foxminded;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class ReverseStringTest {
-
-    ReverseString anagram = new ReverseString();
+public class ReverseTest {ReverseString anagram = new ReverseString();
 
     @Test
     void reverseText_shouldThrowNullPointerException_whenNullIsGiven() {
